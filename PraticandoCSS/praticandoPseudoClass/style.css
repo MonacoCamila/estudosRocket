@@ -1,0 +1,36 @@
+/* Pseudo Classes
+é o primeiro elemento dentro de uma caixa. eles comecam com : seguido do nome da pseudo classe. 
+": pseudo-class-name"
+
+## selecionando elementos com pseudo classes
+:first-child
+:nth-of-type()
+:nth-child()
+
+## acoes do usuario
+:hover()
+:focus()
+
+# pseudo-elements :: 
+
+::before
+::after
+::first-line
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+*/
+
+ul li:first-child{
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+}
+
+input:focus{
+    border-color:red;
+}
+
+

@@ -1,0 +1,63 @@
+
+
+header{
+    background-color: lightgray;
+    padding: 2.5rem;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap:.5rem;
+}
+
+ul li:last-child{
+    background-color:black;
+    color: white;
+    padding:.5rem;
+}
+
+.container{
+    display: flex;
+    gap:1rem;
+}
+
+aside, main{
+    border:1px solid;
+    height:95vh;
+    flex: 1;
+}
+
+img{
+    width:30%;
+    height:auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap:.8rem;
+    justify-content:center
+}
+
+button{
+    display: flex;
+    align-items: center;
+    line-height:0;
+    gap:.4rem;
+
+}
+
+button img{
+    width:1.5rem;
+    height:1.5rem;
+}
+
+
+
